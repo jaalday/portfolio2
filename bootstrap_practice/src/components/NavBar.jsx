@@ -28,7 +28,7 @@ const handleToggle = () => {
     <>
     <nav className="nav">
         <div className="logo">
-            <Link to ="/"><img className="logo"src="" alt="logo" /></Link>
+            <Link to ="/"><img className="logo"src="https://images.vexels.com/content/301500/preview/tropical-nature-letter-j-alphabet-b9ad36.png" alt="logo" /></Link>
         </div>
       
        <div className="nav-text2">
