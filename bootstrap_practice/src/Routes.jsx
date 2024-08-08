@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import Petmd from './pages/Petmd';
+import Catcafe from './pages/Catcafe';
 
 
 
@@ -29,6 +31,15 @@ const router = createBrowserRouter([
             {
                 path: "/projects",
                 element: <Projects/>,
+            },
+            {
+                path: "/petmd",
+                element: <Petmd/>,
+            },
+            {
+                path:"/catcafe" ,
+                element:<Catcafe/> ,
+
             }
 
         ]

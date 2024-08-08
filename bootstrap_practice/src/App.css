@@ -262,7 +262,7 @@ margin-left: 18%;
     grid-row-start: 1;
     grid-row-end: 2;
     margin-top: 20px;
-    background-color: #30afc3;
+   
     margin: 20px;
 }
 .project2{
@@ -271,7 +271,7 @@ margin-left: 18%;
     grid-row-start: 1;
     grid-row-end: 2;
     margin-top: 20px;
-    background-color: #98c5cb;
+    
     margin: 20px;
 }
 .project3{
@@ -280,7 +280,7 @@ margin-left: 18%;
     grid-row-start: 1;
     grid-row-end: 2;
     margin-top: 20px;
-    background-color: #e3eeef;
+   
     margin: 20px;
 }
 .project4{
@@ -289,7 +289,7 @@ margin-left: 18%;
     grid-row-start: 2;
     grid-row-end: 3;
     margin-top: 20px;
-    background-color: #30afc3;
+   
     margin: 20px;
 }
 .project5{
@@ -298,7 +298,7 @@ margin-left: 18%;
     grid-row-start: 2;
     grid-row-end: 3;
     margin-top: 20px;
-    background-color: #98c5cb;
+
     margin: 20px;
 }
 .project6{
@@ -307,7 +307,7 @@ margin-left: 18%;
     grid-row-start: 2;
     grid-row-end: 3;
     margin-top: 20px;
-    background-color: #e3eeef;
+
     margin: 20px;
 }
 .img2{
@@ -429,6 +429,68 @@ margin-left: 18%;
         margin: auto;
         margin-top: 60px;
        }
+       .projects-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 300px;
+        height: fit-content;
+        background-color: #292a2a;
+        grid-gap: 5px;
+       }
+       .project1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        margin-top: 40px;
+       
+        margin: 20px;
+    }
+        .project2{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            margin-top: 20px;
+            
+            margin: 20px;
+        }
+        .project3{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            margin-top: 20px;
+           
+            margin: 20px;
+        }
+        .project4{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            margin-top: 20px;
+           
+            margin: 20px;
+        }
+        .project5{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            margin-top: 20px;
+    
+            margin: 20px;
+        }
+        .project6{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 6;
+            grid-row-end: 7;
+            margin-top: 20px;
+    
+            margin: 20px;
+        }
 
     
 
