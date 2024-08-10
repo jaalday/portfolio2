@@ -10,6 +10,7 @@ import Catcafe from './pages/Catcafe';
 import Movie from './pages/Movie';
 import ShooterKitty from './pages/ShooterKitty';
 import Phonebook from './pages/Phonebook';
+import Disney from './pages/Disney';
 
 
 
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
             {
                 path:"/phonebook",
                 element:<Phonebook/>,
+            },
+            {
+                path:"/disney",
+                element:<Disney/>,
             }
 
         ]

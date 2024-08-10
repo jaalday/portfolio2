@@ -40,10 +40,11 @@ const Projects = () => {
         </div>
         </Link>
 
-
+<Link to ="/disney">
         <div className="project6">
-          <img className="img2" src="https://i.postimg.cc/NjVV0Dqv/Screen-Shot-2024-08-08-at-1-53-23-PM.png" alt="project6" />
+          <img className="img2" src="https://i.postimg.cc/d3vXm7Qr/Screen-Shot-2024-08-10-at-3-33-49-PM.png" alt="project6" />
         </div>
+        </Link>
 
 
       </div>

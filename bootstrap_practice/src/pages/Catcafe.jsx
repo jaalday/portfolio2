@@ -2,7 +2,7 @@ const Catcafe = () => {
   return (
     <div className="container3">
       <div className="pet1"><h1 className="title">Cat Cafe</h1>
-      <p className="text">As you can probably tell, I love cats! It has always been a dream of mine to open a cat cafe, so naturally I built this little passion project.
+      <p className="text2">As you can probably tell, I love cats! It has always been a dream of mine to open a cat cafe, so naturally I built this little passion project.
 
 It has a store attached where you can add items to your cart for purchase. Idealy this business would partner with local rescues and fosters to help get cats exposure and possible homes.</p>
 <a href = "https://jaclyn-cat-cafe.netlify.app/" target = "_blank" rel = "noopener noreferrer"><button className="button">  Site</button></a>

@@ -363,7 +363,7 @@ margin-left: 18%;
     grid-row-start: 1;
     grid-row-end: 2;
     margin-top: 20px;
-    background-color: #222121;
+
     margin: 20px;
 }
 .pet3{
@@ -372,7 +372,7 @@ margin-left: 18%;
     grid-row-start: 3;
     grid-row-end: 4;
     margin-top: 20px;
-    background-color: #222121;
+ 
     margin: 20px;
 }
 .pet4{
@@ -381,7 +381,7 @@ margin-left: 18%;
     grid-row-start: 2;
     grid-row-end: 3;
     margin-top: 20px;
-    background-color: #222121;
+
     margin: 20px;
 }
 .pet5{
@@ -390,7 +390,7 @@ margin-left: 18%;
     grid-row-start: 3;
     grid-row-end: 4;
     margin-top: 20px;
-    background-color: #222121;
+   
     margin: 20px;
 }
 .imgpet{
@@ -469,15 +469,17 @@ margin-left: 18%;
     height: fit-content;
     background-color: #292a2a;
     grid-gap: 40px;
+    padding-bottom: 40px;
 }
 .kitty{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 3;
     margin-top: 20px;
    background-color: #222121;
     margin: 20px;
+    margin-bottom: 100px;
     text-align: center;
     border: 2px solid white;
 
@@ -499,6 +501,75 @@ margin-left: 18%;
     margin-top: 20px;
    
     margin: 20px;
+}
+.container7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 300px;
+    height: fit-content;
+    background-color: #292a2a;
+    padding-bottom: 40px;
+    grid-gap: 40px;
+}
+.phonebook{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 20px;
+   background-color: #222121;
+    margin: 20px;
+    
+    text-align: center;
+    border: 2px solid white;
+}
+.phonebook1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 20px;
+ 
+    margin: 20px;
+}
+.phonebook2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 20px;
+
+    margin: 20px;
+}
+.phonebook4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-top: 20px;
+  
+    margin: 20px;
+}
+.imgphone{
+    width: 80%;
+}
+.container8{
+   
+    
+    height: fit-content;
+    background-color: #292a2a;
+    padding-bottom: 40px;
+    
+}
+.about{
+    color: #e2dfdf;
+    text-align: center;
+    font-size: 25px;
+    width: 60%;
+    border: 2px solid white;
+    margin: auto;
+    padding:30px;
+    word-spacing: 5px;
 }
 
 
@@ -697,7 +768,7 @@ margin-left: 18%;
             grid-row-start: 5;
             grid-row-end: 6;
             margin-top: 20px;
-            background-color: #222121;
+        
             margin: 20px;
         }
         .pet3{
@@ -706,7 +777,7 @@ margin-left: 18%;
             grid-row-start: 6;
             grid-row-end: 7;
             margin-top: 20px;
-            background-color: #222121;
+           
             margin: 20px;
         }
         .pet4{
@@ -715,7 +786,7 @@ margin-left: 18%;
             grid-row-start: 7;
             grid-row-end: 8;
             margin-top: 20px;
-            background-color: #222121;
+            
             margin: 20px;
         }
         .pet5{
@@ -724,7 +795,7 @@ margin-left: 18%;
             grid-row-start: 8;
             grid-row-end: 9;
             margin-top: 20px;
-            background-color: #222121;
+            
             margin: 20px;
         }
         .text{
@@ -814,6 +885,69 @@ margin-left: 18%;
         }
         .imgcat{
             width: 100%;
+        }
+       .container7{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 300px;
+        height: fit-content;
+        background-color: #292a2a;
+        grid-gap: 40px;
+        
+    
+    }
+        .phonebook{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            margin-top: 20px;
+           background-color: #222121;
+            margin: 20px;
+            margin-bottom: -50px;
+            text-align: center;
+            border: 2px solid white;
+        }
+        .phonebook1{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+       margin-top: -200px;
+           
+          
+      
+        }
+        .phonebook2{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 4;
+            grid-row-end: 5;
+            margin-top: -200px;
+       
+            
+        }
+        .phonebook4{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 5;
+            grid-row-end: 6;
+           
+          
+           margin-top: -200px;
+        }
+        .imgphone{
+            width: 100%;
+        }
+        .about{
+            color: #e2dfdf;
+            text-align: center;
+            font-size: 21px;
+            width: 90%;
+            border: 2px solid white;
+            margin: auto;
+            padding:30px;
+            word-spacing: 5px;
         }
 
     
