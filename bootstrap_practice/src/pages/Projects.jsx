@@ -21,21 +21,24 @@ const Projects = () => {
         </Link>
 
 
-
+<Link to ="/movie-lookup" >
         <div className="project3">
           <img className="img2" src="https://i.postimg.cc/HnccTxQm/movie-lookup.png" alt="project3" />
         </div>
+        </Link>
 
 
-
+<Link to ="/shooterkitty">
         <div className="project4">
           <img className="img2" src="https://i.postimg.cc/T1tJxrkS/Screen-Shot-2024-06-05-at-11-57-03-AM.png" alt="project4" />
         </div>
+        </Link>
 
-
+<Link to ="/phonebook">
         <div className="project5">
           <img className="img2" src="https://i.postimg.cc/5tVdfpWK/Screen-Shot-2024-08-08-at-1-50-56-PM.png" alt="project5" />
         </div>
+        </Link>
 
 
         <div className="project6">

@@ -7,6 +7,9 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Petmd from './pages/Petmd';
 import Catcafe from './pages/Catcafe';
+import Movie from './pages/Movie';
+import ShooterKitty from './pages/ShooterKitty';
+import Phonebook from './pages/Phonebook';
 
 
 
@@ -40,6 +43,18 @@ const router = createBrowserRouter([
                 path:"/catcafe" ,
                 element:<Catcafe/> ,
 
+            },
+            {
+                path:"/movie-lookup" ,
+                element:<Movie/> ,
+            },
+            {
+                path:"/shooterkitty" ,
+                element:<ShooterKitty/> ,
+            }, 
+            {
+                path:"/phonebook",
+                element:<Phonebook/>,
             }
 
         ]
