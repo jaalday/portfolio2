@@ -1,45 +1,33 @@
 
 
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
 
-.noto-sans{
-  font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-} */
 
-.nav{
-    background-color: #292a2a;
+
+
+
+
+.navbar-nav{
+    display: flex;
    
-    padding: 0.5rem 1rem;
+    justify-content: flex-end;
     width: 100%;
-   
-    
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
 }
-.nav-text{
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #dad9d9;
-    text-align: center;
-width: 100%;
-margin-left: 50%;
-margin-top: 20px;
-
-    
-}
-.nav-text:hover{
-    color: #30afc3;
+.nav-link{
+    margin-right: 20px;
+   color: white;
     text-decoration: none;
 }
-.nav-text2{
-margin-left: 18%;
-    
-   
+.navbar-toggler{
+    background-color: #30afc3;
 }
+
+
+
+
 .logo{
     width: 60px;
     height: 60px;
