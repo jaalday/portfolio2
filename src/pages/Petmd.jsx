@@ -10,7 +10,7 @@ const Petmd = () => {
         <p className="text">Pet MD is a comprehensive website designed specifically for pet owners, allowing them to easily fill out forms and access crucial medical information with just a few taps. As a Veterinary Technician, I've often encountered pet owners who are unsure about the medications their pets are taking. This app provides a convenient solution, ensuring that vital information is always readily available.</p>
         <br/>
         <p className="text">Owners can add as many pets as they want to their profile. Each pet has a separate card with their information on it, and an associated history card.
-        Made with React, Supabase, FastAPI, and Python.</p>
+        </p>
         <a href = "https://github.com/jaalday/Pet--health/tree/master" target = "_blank" rel = "noopener noreferrer"><button className="button"> GitHub</button></a>
         </div>
 

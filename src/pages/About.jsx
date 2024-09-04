@@ -8,8 +8,9 @@ const About = () => {
       <p>In my free time I enjoy hiking, painting and gardening.  </p>
       <br/>
       <p> I am currently looking for a full time position as a developer. If you would like to know more about me, please feel free to reach out! </p>
+      <img className="bi bi-github"></img>
       </div>
-   
+      
       
     </div>
   );

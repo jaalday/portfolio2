@@ -1,5 +1,14 @@
+import petmd from '../assets/petmd.png';
+import catcafe from '../assets/catcafe.png';
+import phone from '../assets/phone.png';
+import lazerkitty from '../assets/lazerkitty.png';
+import { Link } from 'react-router-dom';
+
+
+
 const Home = () => {
   return (
+    <>
     <div className="container1">
       
       <div className="box1">
@@ -42,6 +51,64 @@ const Home = () => {
           /></div>
       
     </div>
+    
+  <div className='under_container'>
+    <div className="under_container1">
+    <div id="carouselExampleCaptions" className="carousel slide">
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+  </div>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src={petmd} className="d-block w-100" alt="..."/>
+      <div className="carousel-caption d-none d-md-block">
+
+      </div>
+    </div>
+    <div className="carousel-item">
+      <img src={catcafe} className="d-block w-100" alt="..."/>
+      <div className="carousel-caption d-none d-md-block">
+
+      </div>
+    </div>
+    <div className="carousel-item">
+      <img src={phone} className="d-block w-100" alt="..."/>
+      <div className="carousel-caption d-none d-md-block">
+
+      </div>
+    </div>
+    <div className="carousel-item">
+      <img src={lazerkitty} className="d-block w-100" alt="..."/>
+      <div className="carousel-caption d-none d-md-block">
+
+      </div>
+    </div>
+  
+   
+
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<div className='under_container2'><h2 className='title2' >Projects</h2>
+<h4 className='textp'>
+  Click through the carousel to see some of my projects, and visit the <Link className='link2' to="/projects">projects</Link> page to see more!
+</h4>
+<h4></h4>
+</div>
+</div>
+    </>
   );
 }
 
