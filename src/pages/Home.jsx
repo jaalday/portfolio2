@@ -66,6 +66,7 @@ const Home = () => {
     <div className="carousel-item active">
       <img src={petmd} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
+       
 
       </div>
     </div>
