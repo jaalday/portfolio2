@@ -3,6 +3,7 @@ import catcafe from '../assets/catcafe.png';
 import phone from '../assets/phone.png';
 import lazerkitty from '../assets/lazerkitty.png';
 import { Link } from 'react-router-dom';
+import selfie from '../assets/selfie.png';
 
 
 
@@ -46,7 +47,7 @@ const Home = () => {
 
       <div className="box2"> <img
             className="img"
-            src="https://i.postimg.cc/Qtg8DqR9/20230506-000504-1.jpg"
+            src={selfie}
             alt="picture of Jaclyn Alday"
           /></div>
       
@@ -79,6 +80,11 @@ const Home = () => {
     <div className="carousel-item">
       <img src={phone} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block">
+    <div className='text3'>
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+        </div>
+
 
       </div>
     </div>
@@ -104,11 +110,49 @@ const Home = () => {
 </div>
 <div className='under_container2'><h2 className='title2' >Projects</h2>
 <h4 className='textp'>
-  Click through the carousel to see some of my projects, and visit the <Link className='link2' to="/projects">projects</Link> page to see more!
+<p>Ive worked on a variety of projects using, React, Python, Fast API as well as many other languages and frameworks. Click through the carousel to view quick previews of my work  </p>
+
 </h4>
 <h4></h4>
+</div> 
 </div>
-</div>
+
+
+
+
+
+
+
+
+{/* <div id="carouselExampleIndicators" className="carousel slide">
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div className="carousel-inner">
+    <div className="carousel-item active">
+      <img src="..." className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src="..." className="d-block w-100" alt="..."/>
+    </div>
+    <div className="carousel-item">
+      <img src="..." className="d-block w-100" alt="..."/>
+    </div>
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div> */}
+
+
+
     </>
   );
 }
